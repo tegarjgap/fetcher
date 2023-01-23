@@ -29,8 +29,14 @@ export default function Users() {
 
   return (
     <>
-      <div className="m-4">
-        <Link href={"/"}>👈🏻 Back to Posts</Link>
+      <div className="flex m-4 gap-3">
+        <Link href={"/"} className="hover:underline">
+          👈🏻 Back to Posts
+        </Link>
+        <Link href={"/comments"} className="hover:underline">
+          {" "}
+          Look at the comments 👉🏻
+        </Link>
       </div>
       {users?.data.map((item) => (
         <div
