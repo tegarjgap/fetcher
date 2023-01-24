@@ -1,5 +1,5 @@
 "use client"
-import { IComments } from "@/contracts/comments"
+import { IComments } from "@/scheme/comments"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import wretch from "wretch"

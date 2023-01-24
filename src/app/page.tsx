@@ -1,5 +1,5 @@
 "use client"
-import IPost from "@/contracts/posts"
+import IPost from "@/scheme/posts"
 import Fetcher from "@/utils/fetcher"
 import Link from "next/link"
 import useSWR from "swr"

@@ -1,6 +1,6 @@
 "use client"
 
-import { GetUserResponse } from "@/contracts/users"
+import { GetUserResponse } from "@/scheme/users"
 import axios from "redaxios"
 import { useEffect, useState } from "react"
 import Link from "next/link"
